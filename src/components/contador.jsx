@@ -1,4 +1,5 @@
 import React, {fragment, useState} from 'react';
+// ejemplo del useState
 
 const Contador = () => {
     // Un Hook es una función especial que permite “conectarse” a características de React
