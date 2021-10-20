@@ -1,6 +1,7 @@
 Fetch - metodo, nos permite recuperar datos de internet a partir de una direccion web, una peticion asincrona  a una url.
         Devuelve una promesa.
         .then() - retorna la promesa 
+
 useEffect(() => {
 
 }, []);  -  con [] le indicamos que no tiene dependencias por lo tanto se ejecutará una sola vez,
@@ -13,3 +14,21 @@ fetch('https://jsonplaceholder.typicode.com/posts')
     setNotes(json)
 })
 }, [newNote]);
+
+
+date: new Date().toISOString() - devuelve la fecha actual y lo pasa a string
+
+setNotes(notes.concat(AddNote)); concat - añade lo que escribimos al array notes
+
+
+return (
+
+    .filter((note) => {       //filtra las notas de acuerdo a la condicion en {}
+        if (showAll) return true;
+        return note.important === true;
+    })
+
+    <NoteComponent key={note} {...note} />  -  mala practica, no controlas lo que le llega a tu componente
+
+
+)
