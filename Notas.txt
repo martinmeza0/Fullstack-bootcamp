@@ -32,3 +32,8 @@ return (
 
 
 )
+
+// useEffect - hook, se ejecuta cada vez que se renderiza un componente
+// map()  - transforma el valor, devuelve c/u de los elementos transformados
+//key - ayuda a react para que cada vez que se renderize saber donde se tiene que conservar ese componente
+//se considera mala practica el math.random() y el index dentro de una key, la mejor opcion. usar el id que trae el array x cada elemento

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import App from './App.js';
 
   // if ( (!notes) || (notes.length === 0) ) {
   //   return 'no hay notas';
